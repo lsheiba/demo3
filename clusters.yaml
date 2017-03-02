@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 - Account: kl-demo-1
   MasterIP: ""
   Name: demo-cluster-1
   Provider: google
   Src: demo-cluster-1.yaml
 - 
+=======
+[]
+>>>>>>> 68cacfd0e2751d5ece8235dab0c5a6312f743f2b
