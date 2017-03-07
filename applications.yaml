@@ -50,7 +50,6 @@
             cpu: 500m
             memory: 512Mi
     name: minecraft
-    order: null
     src: https://github.com/lsheiba/charts/stable/minecraft
     version: 0.1.2
   name: minecraft
