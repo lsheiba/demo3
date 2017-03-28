@@ -4,3 +4,27 @@
   name: word
 - charts: []
   name: mine
+- charts:
+  - clusters:
+    - demo-cluster-1
+    configuration:
+      values:
+        cpu:
+          limits: 100m
+          requests: 25m
+        image:
+          Name: tensorflow/tensorflow
+          Tag: latest
+        memory:
+          limits: 2048Mi
+          requests: 64Mi
+        persistence:
+          accessMode: ReadWriteOnce
+          enabled: true
+          size: 1Gi
+        replicas: 1
+        serviceType: LoadBalancer
+    name: tensorflow
+    src: https://github.com/lsheiba/tensorflow-chart/
+    version: 1.0.0
+  name: tf1
