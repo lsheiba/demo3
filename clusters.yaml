@@ -1,4 +1,4 @@
-- Account: kuberlab-test
+- Account: kuberlab-demo
   Name: test-jupyter-v1
   Provider: google
   Src: demo-cluster-1.yaml
