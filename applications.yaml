@@ -17,7 +17,7 @@
           enabled: true
           size: 1Gi
         replicas: 1
-        serviceType: ClusterIP
+        serviceType: LoadBalancer
     name: tfj-v3
     src: https://github.com/lsheiba/tfj-v3/
     version: 1.0.0
