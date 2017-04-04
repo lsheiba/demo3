@@ -1,5 +1,8 @@
 - Account: kuberlab-test
-  MasterIP: ""
-  Name: demo-cluster-1
+  Name: test-jupyter-v1
+  Provider: google
+  Src: demo-cluster-1.yaml
+- Account: kl-demo-3
+  Name: test-jupyter-v2
   Provider: google
   Src: demo-cluster-1.yaml
